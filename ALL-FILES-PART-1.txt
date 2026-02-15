@@ -1,0 +1,82 @@
+# 📚 QUIZ APP - ALL FILES IN ONE DOCUMENT
+
+This file contains ALL the code for your quiz app.
+You can copy each file separately and create it manually in Replit.
+
+===============================================================================
+FILE: package.json
+===============================================================================
+{
+  "name": "quiz-app-mvp",
+  "version": "1.0.0",
+  "description": "Educational quiz app with Firebase backend",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "firebase": "^10.7.1",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+
+===============================================================================
+FILE: public/index.html
+===============================================================================
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Educational quiz app to test and improve your knowledge"
+    />
+    <title>Quiz App - Learn & Compete</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
+
+===============================================================================
+FILE: .replit
+===============================================================================
+{
+  "run": "npm start",
+  "language": "nodejs",
+  "hidden": [".config", "package-lock.json"],
+  "buildCommand": "npm install"
+}
+
+===============================================================================
+CONTINUE TO NEXT MESSAGE FOR REMAINING FILES...
+===============================================================================
+
+This is part 1 of 3. The complete project has 17 files total.
+Would you like me to continue with the remaining files?
